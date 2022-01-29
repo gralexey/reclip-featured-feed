@@ -8,25 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		090EE6B42739940400FDFCED /* ReclipFeaturedFeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090EE6B32739940400FDFCED /* ReclipFeaturedFeedApp.swift */; };
-		090EE6B62739940400FDFCED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090EE6B52739940400FDFCED /* ContentView.swift */; };
+		090EE6B62739940400FDFCED /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090EE6B52739940400FDFCED /* FeedView.swift */; };
 		090EE6B82739940700FDFCED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090EE6B72739940700FDFCED /* Assets.xcassets */; };
 		090EE6BB2739940700FDFCED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090EE6BA2739940700FDFCED /* Preview Assets.xcassets */; };
 		090EE6C52739940700FDFCED /* ReclipFeaturedFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090EE6C42739940700FDFCED /* ReclipFeaturedFeedTests.swift */; };
-		090EE6CF2739940700FDFCED /* ReclipFeaturedFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090EE6CE2739940700FDFCED /* ReclipFeaturedFeedUITests.swift */; };
-		090EE6D12739940700FDFCED /* ReclipFeaturedFeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090EE6D02739940700FDFCED /* ReclipFeaturedFeedUITestsLaunchTests.swift */; };
 		090EE6DE273994D600FDFCED /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090EE6DD273994D600FDFCED /* VideoPlayerView.swift */; };
 		090EE6E02739995600FDFCED /* FeaturedFeedAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090EE6DF2739995600FDFCED /* FeaturedFeedAPI.swift */; };
+		0E440A8427A55C140023A05C /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E440A8327A55C140023A05C /* Video.swift */; };
+		0E53FE12279FFFD300AF2F4C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E53FE11279FFFD300AF2F4C /* DataService.swift */; };
+		0EBA36AE27A54FDB00F47F33 /* VideoFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA36AD27A54FDA00F47F33 /* VideoFooterView.swift */; };
+		0EBA36B027A550A900F47F33 /* VideoPlayerUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA36AF27A550A900F47F33 /* VideoPlayerUIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		090EE6C12739940700FDFCED /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 090EE6A82739940400FDFCED /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 090EE6AF2739940400FDFCED;
-			remoteInfo = ReclipFeaturedFeed;
-		};
-		090EE6CB2739940700FDFCED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 090EE6A82739940400FDFCED /* Project object */;
 			proxyType = 1;
@@ -38,16 +33,17 @@
 /* Begin PBXFileReference section */
 		090EE6B02739940400FDFCED /* ReclipFeaturedFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReclipFeaturedFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		090EE6B32739940400FDFCED /* ReclipFeaturedFeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReclipFeaturedFeedApp.swift; sourceTree = "<group>"; };
-		090EE6B52739940400FDFCED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		090EE6B52739940400FDFCED /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		090EE6B72739940700FDFCED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		090EE6BA2739940700FDFCED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		090EE6C02739940700FDFCED /* ReclipFeaturedFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReclipFeaturedFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		090EE6C42739940700FDFCED /* ReclipFeaturedFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReclipFeaturedFeedTests.swift; sourceTree = "<group>"; };
-		090EE6CA2739940700FDFCED /* ReclipFeaturedFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReclipFeaturedFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		090EE6CE2739940700FDFCED /* ReclipFeaturedFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReclipFeaturedFeedUITests.swift; sourceTree = "<group>"; };
-		090EE6D02739940700FDFCED /* ReclipFeaturedFeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReclipFeaturedFeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		090EE6DD273994D600FDFCED /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		090EE6DF2739995600FDFCED /* FeaturedFeedAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedFeedAPI.swift; sourceTree = "<group>"; };
+		0E440A8327A55C140023A05C /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		0E53FE11279FFFD300AF2F4C /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		0EBA36AD27A54FDA00F47F33 /* VideoFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFooterView.swift; sourceTree = "<group>"; };
+		0EBA36AF27A550A900F47F33 /* VideoPlayerUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerUIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +61,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		090EE6C72739940700FDFCED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,7 +69,6 @@
 			children = (
 				090EE6B22739940400FDFCED /* ReclipFeaturedFeed */,
 				090EE6C32739940700FDFCED /* ReclipFeaturedFeedTests */,
-				090EE6CD2739940700FDFCED /* ReclipFeaturedFeedUITests */,
 				090EE6B12739940400FDFCED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,7 +78,6 @@
 			children = (
 				090EE6B02739940400FDFCED /* ReclipFeaturedFeed.app */,
 				090EE6C02739940700FDFCED /* ReclipFeaturedFeedTests.xctest */,
-				090EE6CA2739940700FDFCED /* ReclipFeaturedFeedUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,10 +85,10 @@
 		090EE6B22739940400FDFCED /* ReclipFeaturedFeed */ = {
 			isa = PBXGroup;
 			children = (
+				0E440A8527A55DEC0023A05C /* Service */,
+				0E440A8627A55E050023A05C /* Model */,
+				0E440A8727A55E2F0023A05C /* View */,
 				090EE6B32739940400FDFCED /* ReclipFeaturedFeedApp.swift */,
-				090EE6B52739940400FDFCED /* ContentView.swift */,
-				090EE6DD273994D600FDFCED /* VideoPlayerView.swift */,
-				090EE6DF2739995600FDFCED /* FeaturedFeedAPI.swift */,
 				090EE6B72739940700FDFCED /* Assets.xcassets */,
 				090EE6B92739940700FDFCED /* Preview Content */,
 			);
@@ -124,13 +111,32 @@
 			path = ReclipFeaturedFeedTests;
 			sourceTree = "<group>";
 		};
-		090EE6CD2739940700FDFCED /* ReclipFeaturedFeedUITests */ = {
+		0E440A8527A55DEC0023A05C /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				090EE6CE2739940700FDFCED /* ReclipFeaturedFeedUITests.swift */,
-				090EE6D02739940700FDFCED /* ReclipFeaturedFeedUITestsLaunchTests.swift */,
+				0E53FE11279FFFD300AF2F4C /* DataService.swift */,
+				090EE6DF2739995600FDFCED /* FeaturedFeedAPI.swift */,
 			);
-			path = ReclipFeaturedFeedUITests;
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0E440A8627A55E050023A05C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E440A8327A55C140023A05C /* Video.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E440A8727A55E2F0023A05C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				090EE6B52739940400FDFCED /* FeedView.swift */,
+				0EBA36AD27A54FDA00F47F33 /* VideoFooterView.swift */,
+				0EBA36AF27A550A900F47F33 /* VideoPlayerUIViewController.swift */,
+				090EE6DD273994D600FDFCED /* VideoPlayerView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,24 +177,6 @@
 			productReference = 090EE6C02739940700FDFCED /* ReclipFeaturedFeedTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		090EE6C92739940700FDFCED /* ReclipFeaturedFeedUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 090EE6DA2739940700FDFCED /* Build configuration list for PBXNativeTarget "ReclipFeaturedFeedUITests" */;
-			buildPhases = (
-				090EE6C62739940700FDFCED /* Sources */,
-				090EE6C72739940700FDFCED /* Frameworks */,
-				090EE6C82739940700FDFCED /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				090EE6CC2739940700FDFCED /* PBXTargetDependency */,
-			);
-			name = ReclipFeaturedFeedUITests;
-			productName = ReclipFeaturedFeedUITests;
-			productReference = 090EE6CA2739940700FDFCED /* ReclipFeaturedFeedUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -203,10 +191,6 @@
 						CreatedOnToolsVersion = 13.1;
 					};
 					090EE6BF2739940700FDFCED = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 090EE6AF2739940400FDFCED;
-					};
-					090EE6C92739940700FDFCED = {
 						CreatedOnToolsVersion = 13.1;
 						TestTargetID = 090EE6AF2739940400FDFCED;
 					};
@@ -227,7 +211,6 @@
 			targets = (
 				090EE6AF2739940400FDFCED /* ReclipFeaturedFeed */,
 				090EE6BF2739940700FDFCED /* ReclipFeaturedFeedTests */,
-				090EE6C92739940700FDFCED /* ReclipFeaturedFeedUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,13 +232,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		090EE6C82739940700FDFCED /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -264,9 +240,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				090EE6E02739995600FDFCED /* FeaturedFeedAPI.swift in Sources */,
-				090EE6B62739940400FDFCED /* ContentView.swift in Sources */,
+				090EE6B62739940400FDFCED /* FeedView.swift in Sources */,
 				090EE6B42739940400FDFCED /* ReclipFeaturedFeedApp.swift in Sources */,
+				0E53FE12279FFFD300AF2F4C /* DataService.swift in Sources */,
 				090EE6DE273994D600FDFCED /* VideoPlayerView.swift in Sources */,
+				0E440A8427A55C140023A05C /* Video.swift in Sources */,
+				0EBA36B027A550A900F47F33 /* VideoPlayerUIViewController.swift in Sources */,
+				0EBA36AE27A54FDB00F47F33 /* VideoFooterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,15 +258,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		090EE6C62739940700FDFCED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				090EE6CF2739940700FDFCED /* ReclipFeaturedFeedUITests.swift in Sources */,
-				090EE6D12739940700FDFCED /* ReclipFeaturedFeedUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -294,11 +265,6 @@
 			isa = PBXTargetDependency;
 			target = 090EE6AF2739940400FDFCED /* ReclipFeaturedFeed */;
 			targetProxy = 090EE6C12739940700FDFCED /* PBXContainerItemProxy */;
-		};
-		090EE6CC2739940700FDFCED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 090EE6AF2739940400FDFCED /* ReclipFeaturedFeed */;
-			targetProxy = 090EE6CB2739940700FDFCED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -523,50 +489,6 @@
 			};
 			name = Release;
 		};
-		090EE6DB2739940700FDFCED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.reclip.ReclipFeaturedFeedUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ReclipFeaturedFeed;
-			};
-			name = Debug;
-		};
-		090EE6DC2739940700FDFCED /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.reclip.ReclipFeaturedFeedUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ReclipFeaturedFeed;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -593,15 +515,6 @@
 			buildConfigurations = (
 				090EE6D82739940700FDFCED /* Debug */,
 				090EE6D92739940700FDFCED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		090EE6DA2739940700FDFCED /* Build configuration list for PBXNativeTarget "ReclipFeaturedFeedUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				090EE6DB2739940700FDFCED /* Debug */,
-				090EE6DC2739940700FDFCED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

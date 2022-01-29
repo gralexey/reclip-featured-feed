@@ -6,10 +6,16 @@
 import SwiftUI
 
 @main
-struct ReclipFeaturedFeedApp: App {
+class ReclipFeaturedFeedApp: App {
+    
+    private let dataSource = DataService()
+    private lazy var contentView = FeedView(dataService: self.dataSource)
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            contentView
         }
     }
+    
+    required init() {}
 }

@@ -7,25 +7,30 @@ import XCTest
 @testable import ReclipFeaturedFeed
 
 class ReclipFeaturedFeedTests: XCTestCase {
+    
+    var sup: DataService?
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    override func setUp() {
+        sup = DataService()
+    }
+    
+    override func tearDown() {
+        sup = nil
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+    func testVideosDedublicating() throws {
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let video = Video(id: "1",
+                          share: Video.Share(videoTitle: "Video Title 1",
+                                             videoUrl: "",
+                                             username: "alex"),
+                          createdAt: Date())
+        let dublicatedVideo = video
+        let videos = [video, dublicatedVideo]
+        
+        sup?.setVideos(videos)
+        
+        let workingVideos = sup?.videos
+        XCTAssert(workingVideos?.count == 1, "Dedublicating error")
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
